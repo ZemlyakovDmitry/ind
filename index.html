@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Читай книги</title>
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="./img/logo.jpg" alt="logo" />
+      <button id="catalogBtn">
+        Каталог <span><img src="./img/catalog.jpg" alt="catalog" /></span>
+      </button>
+
+      <input class="search" type="text" placeholder="Поиск" />
+
+      <div class="headerElement">
+        <img src="./img/favorites.jpg" alt="favorites" />
+        <p>Избранное</p>
+      </div>
+
+      <div class="headerElement">
+        <img src="./img/basket.jpg" alt="basket" />
+        <p>Корзина</p>
+      </div>
+
+      <button class="enter">Войти</button>
+    </header>
+
+    <nav>
+      <a href="#">Все</a>
+      <a href="#">Фентези</a>
+      <a href="#">Детективы</a>
+      <a href="#">Боевики</a>
+      <a href="#">Проза</a>
+      <a href="#">Бизнес</a>
+      <a href="#">Эзотерика</a>
+      <a href="#">Психология</a>
+      <a href="#">Мода</a>
+      <a href="#">Кулинария</a>
+      <a href="#">Биография</a>
+      <a href="#">Хобби</a>
+    </nav>
+    <main>
+      <section class="preview">
+        <div class="previewContent">
+          <h2>Читай книги - маркетплейс книжных товаров</h2>
+          <h3>Сравнивайте цены и бронируйте книги в ближайших магазинах!</h3>
+          <button class="enter">Войти</button>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="head">
+          <h1>Популярное</h1>
+          <div class="all">
+            <a href="#">Смотерть все</a>
+            <img src="./img/rightArrow.png" alt="right" />
+          </div>
+        </div>
+        <div class="sectionContent">
+          <div class="sectionElement">
+            <img src="./img/bookPreview.jpg" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="sectionElement">
+            <img src="./img/bookPreview2.png" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="sectionElement">
+            <img src="./img/bookPreview3.png" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="sectionElement">
+            <img src="./img/bookPreview4.png" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="sectionElement">
+            <img src="./img/bookPreview.jpg" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="sectionElement">
+            <img src="./img/bookPreview2.png" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="sectionElement">
+            <img src="./img/bookPreview3.png" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="sectionElement">
+            <img src="./img/bookPreview4.png" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hits">
+        <div class="head" style="margin-left: 340px; width: 80%">
+          <h1>Хиты продаж</h1>
+        </div>
+        <div class="hitBooks">
+          <div class="sectionElement">
+            <img src="./img/bookPreview.jpg" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="sectionElement">
+            <img src="./img/bookPreview2.png" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="sectionElement">
+            <img src="./img/bookPreview3.png" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="sectionElement">
+            <img src="./img/bookPreview4.png" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="head">
+          <h1>Акции</h1>
+          <div class="all">
+            <a href="#">Смотерть все</a>
+            <img src="./img/rightArrow.png" alt="right" />
+          </div>
+        </div>
+        <div class="sectionContent">
+          <div class="sectionElement">
+            <img src="./img/bookPreview.jpg" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="sectionElement">
+            <img src="./img/bookPreview2.png" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="sectionElement">
+            <img src="./img/bookPreview3.png" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="sectionElement">
+            <img src="./img/bookPreview4.png" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="sectionElement">
+            <img src="./img/bookPreview.jpg" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="sectionElement">
+            <img src="./img/bookPreview2.png" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="sectionElement">
+            <img src="./img/bookPreview3.png" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="sectionElement">
+            <img src="./img/bookPreview4.png" alt="book" class="bookImg" />
+
+            <div class="right">
+              <div class="concat">
+                <div class="top">
+                  <div class="rating">
+                    <img src="./img/star.jpg" alt="star" />
+                    <p>4.9</p>
+                  </div>
+
+                  <img
+                    src="./img/favorites.jpg"
+                    alt="favorites"
+                    style="height: 20px"
+                  />
+                </div>
+                <div class="middle">
+                  <h3>Лягушка, слон и брокколи. Как жить и как не надо</h3>
+                  <p>Алексей Марков</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <button class="enter">В корзину</button>
+                <p>575₽</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="sectionStock">
+        <div class="title">
+          <h3>Увлекательные приключения</h3>
+        </div>
+        <div class="stockElement">
+          <div class="leftStock">
+            <h2>-20%</h2>
+            <p>На книги про космос</p>
+
+            <button class="stockBtn">К покупкам</button>
+          </div>
+          <div class="rightStock">
+            <img src="./img/bookPreview2.png" alt="stockImg">
+            <img src="./img/bookPreview4.png" alt="stockImg">
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
