@@ -34,6 +34,11 @@
   font-style: italic;
 }
 
+*{
+ margin: 0;
+padding: 0;
+}
+
 body {
   font-family: Philosopher;
   margin: 0 340px;
@@ -127,7 +132,7 @@ main {
   flex-direction: column;
   background: url(../img/preview.jpg);
   height: 269px;
-  justify-content: center;
+    justify-content: center;
   margin-bottom: 72px;
 }
 .preview h2 {
